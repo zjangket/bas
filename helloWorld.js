@@ -5,4 +5,4 @@ http.createServer(function(req, resp) {
     resp.write('<img src="http://www.rizoomes.nl/wp-content/uploads/2014/05/Heizeldrama-verdrukking.jpg"></img>')
     resp.write('<h2>Aanloop</h2>');
     resp.end('<p>Het was een zaterdag in mei 1985.</p>');
-}).listen(1337, '127.0.0.1');
+}).listen(process.env.PORT || 1337);
