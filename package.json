@@ -1,0 +1,17 @@
+{
+  "name": "Heizeldrama",
+  "version": "0.0.1",
+  "description": "A sample",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "helloWorld.js",
+  "scripts": {
+    "start": "node helloWorld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zjangket/bas.git"
+  },
+  "license": "MIT"
+}
